@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import OmmCounter from './omm-counter';
 
