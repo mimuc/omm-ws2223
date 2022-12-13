@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>MemeMUC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+  <header>
+    <h1>MemeMUC</h1>
+  </header>
+  <main>
+    <aside>
+      <ul>
+        <li><img src="images/doge.jpg" alt="doge"></li>
+        <li class="selected"><img src="images/raptor.jpg" alt="raptor"></li>
+        <li><img src="images/boromir.png" alt="boromir"></li>
+      </ul>
+    </aside>
+      <div class="result">
+        <img src="/memes/boromir?text=One does not simly&text2=generate a meme">
+      </div>
+      <div class="controls">
+        <div>
+          <h3>Caption 1</h3>
+          <label>
+            Text
+            <input type="text" value="One does not simly" name="text">
+          </label>
+          <label>
+            x offset
+            <input type="number" value="0" name="x">
+          </label>
+          <label>
+            y offset
+            <input type="number" value="0" name="y">
+          </label>
+        </div>
+        <div>
+          <h3>Caption 2</h3>
+          <label>
+            Text
+            <input type="text" value="generate a meme" placeholder="Text 2" name="text2">
+          </label>
+          <label>
+            x offset
+            <input type="number" value="0" placeholder="Text 2 x-offset" name="x2">
+          </label>
+          <label>
+            y offset
+            <input type="number" value="0" placeholder="Text 2 y-offset" name="y2">
+          </label>
+        </div>
+        <button>Generate</button>
+      </div>
+  </main>
+</html>
