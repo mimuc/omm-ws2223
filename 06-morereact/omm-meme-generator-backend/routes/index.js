@@ -11,6 +11,10 @@ const IMAGES = {
   boromir: 'boromir.png',
   doge: 'doge.jpg',
   raptor: 'raptor.jpg',
+  buzz: 'buzz.jpg',
+  bernie: 'bernie.jpg',
+  confessionbear: 'Confession-Bear.jpg',
+  wonka:'wonka.jpg'
 };
 
 // Routes

@@ -1,4 +1,4 @@
-const x: number = 5;
+const x = 5;
 
 function joinString (x: string[]): string { return "Hallo"  }
 
